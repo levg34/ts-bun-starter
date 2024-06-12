@@ -1,13 +1,5 @@
-type Test = {
-    name: string
-    lines: number
-    failed: boolean
-}
-
-const test: Test = {
-    failed: false,
-    lines: 5,
-    name: 'Test'
-}
+import { test } from './module1'
+import input from '../data/input.txt'
 
 console.info(test)
+console.info(input)
